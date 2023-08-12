@@ -1,0 +1,157 @@
+
+/* <!-- Project 3 Stylesheet
+Name: sahibpreet singh
+Date:11-08-2023
+Description: Styles for Project  --> */
+
+body {
+   
+    font-size: 16px;
+    background-color: #898282;
+
+}
+
+.uppernav {
+    display: flex;
+    justify-content: center;
+    width: 96.7%;
+    background-color: #d9d31d;
+    padding: 5px;
+    margin-top: -130px;
+}
+
+.uppernav li {
+    list-style: none;
+    padding: 5px;
+}
+
+.uppernav a {
+    text-decoration: none;
+    color: #01090d;
+    padding: 50px;
+    font-size: x-large;
+}
+
+.uppernav li :hover {
+    color: white;
+}
+
+.uppernav :focus {
+    color: #ffffff;
+}
+
+.logo {
+	height: 100px;
+	position: relative;
+	top: -10px;
+}
+#contactform {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+}
+
+input,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+#contact-form {
+    border: 1px solid #622b2b;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+#contact-form h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #060606;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,select {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 3px solid #bcb712;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.cent {
+    display: flex;
+    justify-content: center;
+}
+
+
+p {
+    color: #ff1010;
+}
+
+.uppernav {
+    display: flex;
+    justify-content: center;
+    margin-top: px;
+    width: 96.7%;
+    background-color: #d9d31d;
+    padding: 25px;
+
+}
+
+.uppernav li {
+    list-style: none;
+    padding: 15px;
+}
+
+.uppernav a {
+    text-decoration: none;
+    color: #01090d;
+    padding: 55px;
+    font-size: x-large;
+}
+
+.uppernav li :hover {
+    color: white;
+}
+
+.uppernav :focus {
+    color: #ffffff;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    color: #01090d;
+    margin-top: 80px;
+}

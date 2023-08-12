@@ -1,0 +1,71 @@
+
+    <!-- Project 3 Stylesheet
+    Name: sahibpreet singh
+    Date:11-08-2023
+    Description: Styles for Project -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="contact.js" ></script>
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <main>
+        <img src="logo.png" alt="fitness logo" class="logo">
+            <nav>
+        <ul class="uppernav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+
+        <form id="infoform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <p class="error" id="nameError">Please enter your name.</p>
+
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <p   class="error" id="emailError">Please enter an email.</p>
+          <p id="emailformat_error" class="error"> enter a valid mail address </p>
+           
+          <label for="phoneNumber">Phone Number:</label>
+            <input type="number" id="phoneNumber" name="phoneNumber">
+            <p class="error" id="phoneNumberError">Please enter phone number.</p>
+            <label for="comments">some of fitness discription</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <p class="error" id="commentsError">Please gibe your health discription.</p>
+           
+           <label for="membership">Select Membership:</label>
+            <select id="membership" name="membership">
+                <option value="basic">Basic Membership</option>
+                <option value="prime">Prime Membership</option>
+                <option value="gold">Gold Membership</option>
+            </select>
+
+            <button type="submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+        </form>
+
+    </div>
+    <footer>
+        
+            <p class="end"> &copy; 2023 fitness. All rights reserved. | Designed by contactibpreet</p>
+        
+        
+    </footer>
+    </main>
+</body>
+
+
+</html>

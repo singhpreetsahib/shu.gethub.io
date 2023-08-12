@@ -1,0 +1,111 @@
+body {
+   
+    font-size: 16px;
+    background-color: #898282;
+
+}
+.uppernav {
+	display: flex;
+	justify-content:center;
+	width:100;
+    margin-top: -95px;
+	background-color: #d9d31d;
+	padding: 15px;
+	
+}
+
+.uppernav li {
+	list-style: none;
+	padding: 15px;
+}
+
+.uppernav a {
+	text-decoration: none;
+	color: #01090d;
+	padding: 55px;
+	font-size: x-large;
+}
+
+.uppernav li :hover {
+	color: white;
+}
+
+.uppernav :focus {
+	color: #ffffff;
+}
+.bx1 {
+	width: 450px;
+	height: min-content;
+	background-color: #615f5f;
+	color: #f5e6e6;
+	border: #01090d solid 1px;
+	border-radius: 16px;
+	margin-left: 10px;
+	padding: 5px;
+}
+.txt{
+	color: #d9d31d;
+}
+.logo {
+	height: 80px;
+	position: relative;
+	top: -10px;
+	
+}
+.bx2 {
+	width: 450px;
+	height: min-content;
+	background-color: #615f5f;
+	color: #f5e6e6;
+	border: #01090d solid 1px;
+	border-radius: 16px;
+	margin-left: 10px;
+	padding: 5px;
+}
+.bx3{width: 450px;
+	height: min-content;
+	background-color: #615f5f;
+	color: #f5e6e6;
+	border: #01090d solid 1px;
+	border-radius: 16px;
+	margin-left: 10px;
+	padding: 5px;}
+.membership{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 80px;
+		position: relative;
+	}
+	.end{
+		color: #d9d31d;
+		position: absolute;
+		margin-left: 500px;
+		margin-top: 260px;
+	}
+	.bgimg{
+		position: absolute;
+		margin-top: -22px;
+		width: 99%;
+		height: 700px;
+	}@media screen and (max-width:1100px) {
+
+		.uppernav {
+			padding-left: 200px;
+			width: auto;
+			flex: 1;
+		
+		}
+	
+		.uppernav a {
+			font-size: max(2vw,10px);
+		}
+	
+		.uppernav li {
+			max-height: max(20vw,100px);
+		}
+		.end{
+			top: 370px;
+			left: -50px;
+		}
+		
+	}
